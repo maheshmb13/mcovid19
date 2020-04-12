@@ -1,3 +1,5 @@
+This project shows covid-19 info.
+Using Nextjs
 
 ## Getting Started
 
@@ -13,4 +15,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## Deployed on ZEIT Now
+
 
