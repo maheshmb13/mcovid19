@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {useState, useEffect} from 'react'
 import NumberFormat from 'react-number-format';
 import ReplyIcon from '@material-ui/icons/Reply';
-import Router from 'next/Router'
+import Router from 'next/router'
 import { makeStyles } from '@material-ui/core/styles';
 import Alert from '@material-ui/lab/Alert';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
