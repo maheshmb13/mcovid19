@@ -22,14 +22,12 @@ const Home = () => (
         <Link href="/world">
         <a className="card">
           <h3>World Wide &rarr;</h3>
-
         </a>
           </Link>
         <Link href="/india">
-        <a className="card">
-          <h3>India &rarr;</h3>
-          <p></p>
-        </a>
+          <a className="card">
+            <h3>India &rarr;</h3>
+          </a>
         </Link>
 
 
