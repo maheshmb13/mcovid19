@@ -1,5 +1,5 @@
 This project shows covid-19 info.
-Using Nextjs
+Built upon Nextjs
 
 ## Getting Started
 
