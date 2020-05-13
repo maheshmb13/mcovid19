@@ -38,8 +38,14 @@ const World = () => {
        console.log(stats)
     }
 
+   const getData = () => {
+      fetch("https://corona.lmao.ninja/v2/all", method: 'GET')
+      .then(data => return data.json())
+      .then(res => setStats(res)
+}
+
     useEffect(() => {
-      FetchData()// the function fetching the data
+      getData()// the function fetching the data
       }, [])
   return(
   <div className="container">
