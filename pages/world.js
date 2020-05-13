@@ -60,7 +60,7 @@ const World = () => {
       </h1>
 
       <p className="description">
-        Stay Home | Stay Safe
+        Stay Home | Stay Safe hello
       </p>
 
       <div className="grid">
