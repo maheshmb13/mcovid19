@@ -38,14 +38,10 @@ const World = () => {
        console.log(stats)
     }
 
-   const getData = () => {
-      fetch("https://corona.lmao.ninja/v2/all", method: 'GET')
-      .then(data => return data.json())
-      .then(res => setStats(res)
-}
+   
 
     useEffect(() => {
-      getData()// the function fetching the data
+     FetchData()// the function fetching the data
       }, [])
   return(
   <div className="container">
@@ -60,7 +56,7 @@ const World = () => {
       </h1>
 
       <p className="description">
-        Stay Home | Stay Safe hello
+        Stay Home | Stay Safe
       </p>
 
       <div className="grid">
