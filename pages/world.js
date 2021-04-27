@@ -32,7 +32,7 @@ const World = () => {
 
 
     const FetchData = async () => {
-       const data = await fetch('https://corona.lmao.ninja/v2/all');
+       const data = await fetch('https://corona.lmao.ninja/v3/covid-19/all');
        const stats = await data.json();
        handleStats(stats)
        console.log(stats)
